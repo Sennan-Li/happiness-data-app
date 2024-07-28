@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
-st.title("In search for Happiness")
+st.title("In Search for Happiness")
 
 
 df = pd.read_csv("happiness_data.csv")
